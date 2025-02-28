@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Play, Pause, Stop, Clock, Check, Edit2 } from 'lucide-react';
+import { Play, Pause, Square, Clock, Check, Edit2 } from 'lucide-react';
 import { useFocusSession } from '../hooks/useFocusSession';
 import { focusSuggestions } from '../utils/mockData';
 
@@ -227,7 +227,7 @@ const FocusTimer: React.FC = () => {
                 onClick={stopSession}
                 className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary hover:bg-secondary/80 transition-all active:scale-95"
               >
-                <Stop size={18} />
+                <Square size={18} />
               </button>
               
               <button
